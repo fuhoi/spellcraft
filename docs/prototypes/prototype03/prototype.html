@@ -1,0 +1,793 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- nav -->
+        <div class="menu">
+            <div class="menuLeft">
+                <a class="button" href="#">Spells</a>
+                <a class="button" href="#">Resources</a>
+                <a class="button" href="#">Types</a>
+                <a class="button" href="#">Admin</a>
+            </div>
+            <div class="menuRight">
+                <a class="button" href="#">Login</a>
+                <a class="button" href="#">User Settings</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <!-- / nav -->
+        <!-- header -->
+        <div>
+            <form action="/search" method="post">
+                <div style="width:30%;float:left;text-align:center;">
+                    <span style="font-weight:bold;font-size:1.5em;">Spellcraft</span>
+                </div>
+                <div style="width:70%;float:left;">
+                    <input type="text" name="spell_name" size="50" />
+                    <input type="submit" value="Search">
+                </div>
+            </form>
+        </div>
+        <div style="clear:both;"></div>
+        <!-- / header -->
+        <!-- search -->
+        <div style="width:30%;float:left;">
+            <form action="/search" method="post">
+                <!--<h2>Filter</h2>-->
+                <div>
+                    <h3>Types</h3>
+                    <div>
+                        <input type="checkbox" name="type_direct_attack" value="DA" />Direct Attack<br />
+                        <input type="checkbox" name="type_direct_attack" value="DA" />Direct Attack<br />
+                        <input type="checkbox" name="type_direct_attack" value="DA" />Direct Attack<br />
+                        <input type="checkbox" name="type_direct_attack" value="DA" />Direct Attack
+                    </div>
+                </div>
+                <div>
+                    <h3>Resources</h3>
+                    <div>
+                        <span>Chaos</span><input type="number" name="resource_chaos" min="0" max="99" /><br />
+                        <span>Chaos</span><input type="number" name="resource_chaos" min="0" max="99" /><br />
+                        <span>Chaos</span><input type="number" name="resource_chaos" min="0" max="99" /><br />
+                        <span>Chaos</span><input type="number" name="resource_chaos" min="0" max="99" />
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Filter">
+                </div>
+            </form>
+        </div>
+        <!-- / search -->
+        <!-- list -->
+        <div style="width:70%;float:left;">
+            <!--<h2>Results</h2>-->
+            <div>
+                <p>
+                    <a href="#">Breath of Fire</a><br />
+                    <span style="color:#A9A9A9;font-size:0.8em">Cost: <span style="color:#000000;font-weight:bold;">Fire Fire Life</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span></span><br />
+                    Cone of fire infront of the caster
+                </p>
+                <p>
+                    <a href="#">Breath of Fire</a><br />
+                    <span style="color:#A9A9A9;font-size:0.8em">Cost: <span style="color:#000000;font-weight:bold;">FFL</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span></span><br />
+                    Cone of fire infront of the caster
+                </p>
+                <p>
+                    <span style="float:left;">
+                        <a href="#">Breath of Fire</a>
+                    </span>
+                    <span style="float:right;"><span style="color:#A9A9A9">Cost: <span style="color:#000000;font-weight:bold;">FFL</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span></span></span><br />
+                    Cone of fire infront of the caster
+                </p>
+                <p>
+                    <span style="float:left;"><a href="#">Breath of Fire</a></span><span style="float:right;">(<span style="color:#A9A9A9">Cost: <span style="color:#000000;font-weight:bold;">FFL</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span>)</span></span><br />
+                    Cone of fire infront of the caster
+                </p>
+                <p>
+                    <a href="#">Breath of Fire</a>
+                    <span style="padding-left:10px;color:#A9A9A9;font-size:0.7em">Cost: <span style="color:#000000;font-weight:bold;">FFL</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span></span><br />
+                    Cone of fire infront of the caster
+                </p>
+                <p>
+                    <a href="#">Breath of Fire</a><br />
+                    <span style="color:#A9A9A9;font-size:0.7em">Cost: <span style="color:#000000;font-weight:bold;">FFL</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span></span><br />
+                    Cone of fire infront of the caster
+                </p>
+                <p>
+                    <a href="#">Breath of Fire</a><br />
+                    Cone of fire infront of the caster<br />
+                    <span style="color:#A9A9A9;font-size:0.7em">Cost: <span style="color:#000000;font-weight:bold;">FFL</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span></span>
+                </p>
+                <p>
+                    <a href="#">Breath of Fire</a> (<span style="color:#A9A9A9">Cost: <span style="color:#000000;font-weight:bold;">FFL</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span>)</span><br />
+                Cone of fire infront of the caster</p>
+                <p><strong>Breath of Fire</strong> (<span style="color:#A9A9A9">Cost: <span style="color:#000000;font-weight:bold;">FFL</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span>)</span><br />
+                Cone of fire infront of the caster</p>
+                <p>Breath of Fire (<span style="color:#A9A9A9">Cost: <span style="color:#000000;font-weight:bold;">FFL</span>; Type: <span style="color:#000000;font-weight:bold;">Direct Attack</span>; Shortcut: <span style="color:#000000;font-weight:bold;">Ctrl+F</span>)</span><br />
+                Cone of fire infront of the caster</p>
+                <p>Breath of Fire (<span style="color:#A9A9A9">Cost: <span style="color:#000000">FFL</span>; Type: <span style="color:#000000">Direct Attack</span>; Shortcut: <span style="color:#000000">Ctrl+F</span>)</span><br />
+                Cone of fire infront of the caster</p>
+                <p>Breath of Fire (FFL; Direct Attack; Ctrl+F)<br />
+                Cone of fire infront of the caster</p>
+                <p>Breath of Fire (Cost: FFL; Type: Direct Attack; Shortcut: Ctrl+F)<br />
+                Cone of fire infront of the caster</p>
+                <p>Name: Breath of Fire; Type: Direct Attack; Cost: FFL; Shortcut: Ctrl+F<br />
+                Cone of fire infront of the caster</p>
+            </div>
+        
+            <!--<div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Resources</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Chaos</div>
+            <div style="width:30%;float:left">C</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Dark</div>
+            <div style="width:30%;float:left">D</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Earth</div>
+            <div style="width:30%;float:left">E</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Energy</div>
+            <div style="width:30%;float:left">Y</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Fire</div>
+            <div style="width:30%;float:left">F</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Light</div>
+            <div style="width:30%;float:left">L</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Storm</div>
+            <div style="width:30%;float:left">S</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Water</div>
+            <div style="width:30%;float:left">W</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>-->
+            <!--<div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Types</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Direct Attack</div>
+            <div style="width:30%;float:left">DA</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Summons</div>
+            <div style="width:30%;float:left">S</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Healing</div>
+            <div style="width:30%;float:left">H</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Auras</div>
+            <div style="width:30%;float:left">A</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Positive Buffs</div>
+            <div style="width:30%;float:left">PB</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Negative Buffs</div>
+            <div style="width:30%;float:left">NB</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Defense and Avoidance</div>
+            <div style="width:30%;float:left">DAA</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Interruptions</div>
+            <div style="width:30%;float:left">I</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Melee Ranged</div>
+            <div style="width:30%;float:left">MR</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Passive Abilities</div>
+            <div style="width:30%;float:left">PA</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Debuffs and Unsummons</div>
+            <div style="width:30%;float:left">DU</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Ultimates</div>
+            <div style="width:30%;float:left">U</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Survivor Changes</div>
+            <div style="width:30%;float:left">SC</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Conquest Changes</div>
+            <div style="width:30%;float:left">CC</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>-->
+            <!--<div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Direct attack Spells</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Breath of Fire</div>
+            <div style="width:30%;float:left">FFL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Breath of Frost</div>
+            <div style="width:30%;float:left">DSW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Chain Lightning</div>
+            <div style="width:30%;float:left">SSS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Cold Arrows</div>
+            <div style="width:30%;float:left">SWW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Crushing Wave</div>
+            <div style="width:30%;float:left">WWW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Death Coil</div>
+            <div style="width:30%;float:left">DDD</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Entangle</div>
+            <div style="width:30%;float:left">EEE</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Fan of Knives</div>
+            <div style="width:30%;float:left">EES</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Fire Bolt</div>
+            <div style="width:30%;float:left">FFY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Flamestrike</div>
+            <div style="width:30%;float:left">FFF</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Forked Lightning</div>
+            <div style="width:30%;float:left">SSW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Frost Arrow</div>
+            <div style="width:30%;float:left">WYY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Frost Bolt</div>
+            <div style="width:30%;float:left">WWY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Frost Nova</div>
+            <div style="width:30%;float:left">DWW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Impale</div>
+            <div style="width:30%;float:left">DDY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Mana Burn</div>
+            <div style="width:30%;float:left">DFW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Orb of Annihilation</div>
+            <div style="width:30%;float:left">DSY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Rain of Fire</div>
+            <div style="width:30%;float:left">FFW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Searing Arrow</div>
+            <div style="width:30%;float:left">LFY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Shadow Strike</div>
+            <div style="width:30%;float:left">DEE</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Shockwave</div>
+            <div style="width:30%;float:left">FFS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Stormbolt</div>
+            <div style="width:30%;float:left">LSS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Thunder Clap</div>
+            <div style="width:30%;float:left">FSS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">War Stomp</div>
+            <div style="width:30%;float:left">ESY</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Summons</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Bear</div>
+            <div style="width:30%;float:left">SYY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Carrion Beetles</div>
+            <div style="width:30%;float:left">DEY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Control Magic</div>
+            <div style="width:30%;float:left">FSY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Feral Spirit</div>
+            <div style="width:30%;float:left">EFS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Parasite</div>
+            <div style="width:30%;float:left">FDY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Raise Dead</div>
+            <div style="width:30%;float:left">DDE</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Serpent Ward</div>
+            <div style="width:30%;float:left">DSS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Treants*</div>
+            <div style="width:30%;float:left">EEW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Water Elemental</div>
+            <div style="width:30%;float:left">FWW</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Healing</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Essence of Blight</div>
+            <div style="width:30%;float:left">LDY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Drain Life</div>
+            <div style="width:30%;float:left">DEW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Heal</div>
+            <div style="width:30%;float:left">LLW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Healing Wards</div>
+            <div style="width:30%;float:left">LLY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Healing Wave</div>
+            <div style="width:30%;float:left">FLW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Holy Light</div>
+            <div style="width:30%;float:left">LLL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Rejuvination</div>
+            <div style="width:30%;float:left">ELL</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Auras</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Brilliance Aura</div>
+            <div style="width:30%;float:left">EWW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Command Aura</div>
+            <div style="width:30%;float:left">FLS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Devotion Aura</div>
+            <div style="width:30%;float:left">LWW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Endurance Aura</div>
+            <div style="width:30%;float:left">EEF</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Trueshot Aura</div>
+            <div style="width:30%;float:left">EFL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Unholy Aura</div>
+            <div style="width:30%;float:left">DF</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Positive Buffs</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Bloodlust</div>
+            <div style="width:30%;float:left">DFS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Frost Armor</div>
+            <div style="width:30%;float:left">DLW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Inner Fire</div>
+            <div style="width:30%;float:left">FLL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Lightning Shield</div>
+            <div style="width:30%;float:left">ESS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Roar</div>
+            <div style="width:30%;float:left">DEL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Spell Steal</div>
+            <div style="width:30%;float:left">FWY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Unholy Frenzy</div>
+            <div style="width:30%;float:left">DDS</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Negative Buffs</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Cripple</div>
+            <div style="width:30%;float:left">DDL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Curse</div>
+            <div style="width:30%;float:left">DYY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Drunken Haze</div>
+            <div style="width:30%;float:left">SWY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Fairie Fire</div>
+            <div style="width:30%;float:left">EEF</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Slow</div>
+            <div style="width:30%;float:left">FSW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Shackles</div>
+            <div style="width:30%;float:left">FYY</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Defense and Avoidance</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Anti Magic Shell</div>
+            <div style="width:30%;float:left">EEY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Blink*</div>
+            <div style="width:30%;float:left">LEY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Divine Shield*</div>
+            <div style="width:30%;float:left">LLS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Evasion</div>
+            <div style="width:30%;float:left">LYY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Mana Shield</div>
+            <div style="width:30%;float:left">ESW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Mirror Image*</div>
+            <div style="width:30%;float:left">EWY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Wind Walk*</div>
+            <div style="width:30%;float:left">LSY</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Interruptions</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Banish*</div>
+            <div style="width:30%;float:left">DLL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Cyclone</div>
+            <div style="width:30%;float:left">EFW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Hex</div>
+            <div style="width:30%;float:left">DES</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Polymorph</div>
+            <div style="width:30%;float:left">YYY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Silence</div>
+            <div style="width:30%;float:left">DLS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Sleep</div>
+            <div style="width:30%;float:left">DW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Stasis Trap</div>
+            <div style="width:30%;float:left">SSY</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Melee Ranged Spells</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Immolation</div>
+            <div style="width:30%;float:left">DFF</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Fan of Knives</div>
+            <div style="width:30%;float:left">EES</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Thunder Clap</div>
+            <div style="width:30%;float:left">FSS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">War Stomp</div>
+            <div style="width:30%;float:left">ESY</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Passive Abilities</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Bash</div>
+            <div style="width:30%;float:left">LWY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Critical Strike</div>
+            <div style="width:30%;float:left">FEY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Envenomed Weapons</div>
+            <div style="width:30%;float:left">DEF</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Evasion</div>
+            <div style="width:30%;float:left">LYY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Feedback</div>
+            <div style="width:30%;float:left">DFL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Slow Poison</div>
+            <div style="width:30%;float:left">EY</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Debuffs and Unsummons</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Abolish Magic</div>
+            <div style="width:30%;float:left">EEL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Anti Magic Shell</div>
+            <div style="width:30%;float:left">EEY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Devour Magic</div>
+            <div style="width:30%;float:left">DWY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Dispel Magic</div>
+            <div style="width:30%;float:left">ELW</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Purge</div>
+            <div style="width:30%;float:left">ELS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Ray of Disruption</div>
+            <div style="width:30%;float:left">LSW</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Ultimates</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Avatar</div>
+            <div style="width:30%;float:left">CFF</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Inferno</div>
+            <div style="width:30%;float:left">CDD</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Reincarnation</div>
+            <div style="width:30%;float:left">CYY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Resurrection</div>
+            <div style="width:30%;float:left">CLL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Stampede</div>
+            <div style="width:30%;float:left">CEE</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Starfall</div>
+            <div style="width:30%;float:left">CSS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Tranquility</div>
+            <div style="width:30%;float:left">CWW</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Survivor Changes</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Atribute Bonus</div>
+            <div style="width:30%;float:left">LEY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Black Arrow</div>
+            <div style="width:30%;float:left">DLL</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Hardened Skin</div>
+            <div style="width:30%;float:left">LLS</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Howl of Terror</div>
+            <div style="width:30%;float:left">EWY</div>
+            </div>
+            <div style="clear:both"></div>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Cannibalize</div>
+            <div style="width:30%;float:left">LSY</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div style="padding-bottom:10px;padding-left:10px;width:200px;padding-right:10px;display:block;float:left;padding-top:10px">
+            <h3>Conquest Changes</h3>
+            <div style="width:100%;float:left">
+            <div style="width:70%;float:left">Atribute Bonus</div>
+            <div style="width:30%;float:left">EEW</div>
+            </div>
+            <div style="clear:both"></div>
+            </div>-->
+        </div>
+        <!-- / list -->
+        <!-- footer -->
+        <!-- / footer -->
+    </body>
+</html>

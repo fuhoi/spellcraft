@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Spellcraft</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/text.css" />
+        <link rel="stylesheet" href="css/960.css" />
+        <link rel="stylesheet" href="css/spellcraft.css" />
+    </head>
+    <body>
+        <div class="menu">
+            <div class="container_12">
+                <div class="grid_6">
+                    <p class="left">
+                        <a class="button" href="#">Spells</a>
+                        <a class="button" href="#">Resources</a>
+                        <a class="button" href="#">Types</a>
+                        <a class="button" href="#">Admin</a>
+                    </p>
+                </div>
+                <div class="grid_6">
+                    <p class="right">
+                        <a class="button" href="#">Login</a>
+                        <a class="button" href="#">User Settings</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container_12">
+            <div class="grid_4">
+                <p class="header">Spellcraft</p>
+            </div>
+            <div class="grid_8">
+                <form action="/search" method="post">
+                    <input type="text" name="spell_name" size="50" />
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+        </div>
+        <div class="container_12">
+            <div class="grid_4">
+                <h3>Types</h3>
+                    <div>
+                        <input type="checkbox" name="type_direct_attack" value="DA" />Direct Attack<br />
+                        <input type="checkbox" name="type_direct_attack" value="DA" />Direct Attack<br />
+                        <input type="checkbox" name="type_direct_attack" value="DA" />Direct Attack<br />
+                        <input type="checkbox" name="type_direct_attack" value="DA" />Direct Attack
+                    </div>
+                    <h3>Resources</h3>
+                    <div>
+                        <span>Chaos</span><input type="number" name="resource_chaos" min="0" max="99" /><br />
+                        <span>Chaos</span><input type="number" name="resource_chaos" min="0" max="99" /><br />
+                        <span>Chaos</span><input type="number" name="resource_chaos" min="0" max="99" /><br />
+                        <span>Chaos</span><input type="number" name="resource_chaos" min="0" max="99" />
+                    </div><div>
+                    <input type="submit" value="Filter">
+                </div>
+            </div>
+            <div class="grid_8">
+                <p class="left">
+                    <span class="spell"><a href="#">Breath of Fire</a></span><br />
+                    <span class="detail">Cost: <span class="cost">Fire Fire Life</span>; Type: <span class="type">Direct Attack</span>; Shortcut: <span class="shortcut">Ctrl+F</span></span><br />
+                    <span class="summary">Cone of fire infront of the caster</span>
+                </p>
+                <p class="left">
+                    <span class="spell"><a href="#">Breath of Fire</a></span><br />
+                    <span class="detail">Cost: <span class="cost">Fire Fire Life</span>; Type: <span class="type">Direct Attack</span>; Shortcut: <span class="shortcut">Ctrl+F</span></span><br />
+                    <span class="summary">Cone of fire infront of the caster</span>
+                </p>
+                <p class="left">
+                    <span class="spell"><a href="#">Breath of Fire</a></span><br />
+                    <span class="detail">Cost: <span class="cost">Fire Fire Life</span>; Type: <span class="type">Direct Attack</span>; Shortcut: <span class="shortcut">Ctrl+F</span></span><br />
+                    <span class="summary">Cone of fire infront of the caster</span>
+                </p>
+            </div>
+        </div>
+        <div class="container_12">
+            <div class="grid_12">
+                <p class="header">Colours</p>
+                <div class="box_container">
+                    <div class="box grey1">Grey1</div>
+                    <div class="box grey2">Grey2</div>
+                    <div class="box grey3">Grey3</div>
+                    <div class="box grey4">Grey4</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
