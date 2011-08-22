@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Spellcraft</title>
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav>
+            <a href="/">Spell</a>
+            <a href="/">Version</a>
+            <a href="/">Spells</a>
+            <a href="/">Resources</a>
+            <a href="/">Types</a>
+            <a href="/">Admin</a>
+            <a href="/">Login</a>
+            <a href="/">Settings</a>
+        </nav>
+        <!-- / navigation -->
+        <!-- logo -->
+        <header>
+            <h1>Spellcraft</h1>
+            <p>A website for all things Spellcraft</p>
+        </header>
+        <!-- / logo -->
+        <!-- search -->
+        <section id="search">
+            <form action="/search">
+                <input type="text" name="search" value="" />
+                <input type="submit" value="Search" />
+            </form>
+        </section>
+        <!-- /search -->
+        <!-- filter -->
+        <section id="filter">
+            <form action="/filter">
+                <fieldset>
+                    <legend>Types</legend>
+                    <p>
+                        <label for="type1">Type1</label>
+                        <input type="checkbox" name="type" id="type1" value="Type1" />
+                    </p>
+                    <p>
+                        <label for="type2">Type1</label>
+                        <input type="checkbox" name="type" id="type2" value="Type2" />
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Resources</legend>
+                    <p>
+                        <label for="resource1">Resource1</label>
+                        <!-- <input type="radio" name="resources" id="resource1" value="Resource1" /> -->
+                        <select>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="resource2">Resource2</label>
+                        <!-- <input type="radio" name="resources" id="resource2" value="Resource2" /> -->
+                        <select>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </p>
+                </fieldset>
+                <input type="submit" value="Filter" />
+            </form>
+        </section>
+        <!-- /filter -->
+        <!-- content -->
+        <h1>HI MONIQUE!!!</h1>
+        <!-- optgroup test -->
+        <select>
+            <optgroup label="Type1">
+                <option value="spell1">Spell1</option>
+                <option value="spell2">Spell2</option>
+            </optgroup>
+            <optgroup label="Type2">
+                <option value="spell3">Spell3</option>
+                <option value="spell4">Spell4</option>
+            </optgroup>
+        </select>
+        <!-- / optgroup test -->
+        <h1>Spells</h1>
+        
+        <!-- / content -->
+        <!-- footer -->
+        <footer>
+            <p>
+                Built by <a href="https://github.com/fuhoi">fuhoi</a>
+                <a href="https://github.com/fuhoi/spellcraft">Source code</a>
+                <a href="https://plus.google.com/110654183641908958332">G+</a>
+                <a href="http://www.facebook.com/adam.k.lincoln">FB</a>
+                <a href="http://code.google.com/appengine/"><img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif" alt="Powered by Google App Engine" /></a>
+                <a href="http://code.google.com/appengine/"><img src="http://code.google.com/appengine/images/appengine-noborder-120x30.gif" alt="Powered by Google App Engine" /></a>
+            </p>
+            <p>
+                <div id="fb-root"></div>
+                <script src="http://connect.facebook.net/en_US/all.js#appId=201909659870519&amp;xfbml=1"></script>
+                <fb:like href="http://fuhoi-spellcraft.appspot.com/" send="true" width="450" show_faces="true" action="like" font="arial"></fb:like>
+            </p>
+            <!-- http://www.w3schools.com/web/web_validate.asp
+            <p>
+                <a href="http://validator.w3.org/check?uri=referer">
+                    <img
+      src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88">
+                </a>
+            </p> -->
+        </footer>
+        <!-- / footer -->
+    </body>
+</html>
