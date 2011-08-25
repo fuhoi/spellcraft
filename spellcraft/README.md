@@ -1,23 +1,3 @@
 # Spellcraft
 
-# Models
-
-Type
-code
-name
-
-Resource
-code
-name
-
-Cost
-spell
-resource
-quantity
-
-Spell
-code
-type
-cost
-description
-shortcut
+This directory is the complete app to upload to GAE
