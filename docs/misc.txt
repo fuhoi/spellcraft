@@ -1,0 +1,218 @@
+http://canthost.blogspot.com/2009/06/spellcraft.html
+
+One of my personal favorite custom games in Warcraft III is Spellcraft by The Zizz, a legendary Map Maker who brought us titles like:
+Uther Party
+Hungry Hungry Felhounds
+Darwin's Island
+Dalaran University
+
+But this particular custom map gives you the power to craft your favorite original spells from Warcraft III by mixing three elements on your inventory, you can even level up this acquired spells and skills by mixing the same combo again up to level 3!, So this basically gives you the power to make a "Custom Hero" with the abilities you want him to have.
+
+Besides that, the game has MANY modes to choose from like:
+Hunter - You are given time to pick elements scattered on the floor to then fight against the rest of the party
+Survivor - Each player is located in a closed chamber from where he needs to spawn foes against the others players, there's a store where to buy elements to craft the spells
+Strife - Kinda like DOTA or Enfo's the players work together to conquer the enemy base through three corridors, non controllable ally units will spawn to help the cause.
+Gradiator - All the players fight together against waves of enemies, after a certain number of waves Bosses will appear after killing them the team will be given random elements to craft their spells, this one needs a lot of team work
+Battle - The players have a base kinda like in Footies and can creep for elements and regenerate mana in the common middle of the map, last one standing wins
+Conquest - Pick up the elements you want from different chambers that you need to control, kinda like RISK
+Mode X - Pick your desired element and kill the unit bearing it to get it
+
+
+The Elements you can use are: fire, water, storm, energy, earth, dark, light and the Glyph of Chaos, mix three of these elements in your inventory to get a spell, Here is the WHOLE spell list so you can print it out and start making strategies for the different modes in the game, or you can also DOWNLOAD the list in a Word Document HERE
+
+Color chart: Heal, Summon, Aura
+
+abolish magic - earth earth light
+
+banish - dark light light
+
+bloodlust - dark fire storm
+
+breath of fire - fire fire light
+
+breath of frost - dark storm water
+
+brilliance aura - earth water water
+
+chain lightning - storm storm storm
+
+blizzard - storm water water
+
+command aura - fire light storm
+
+cripple - dark dark light
+
+crushing wave - water water water
+
+cyclone - earth fire water
+
+death coil - dark dark dark
+
+devotion aura - light water water
+
+dispel magic - earth light water
+
+divine shield - light light storm
+
+endurance aura - earth fire fire
+
+entangle - earth earth earth
+
+envenomed weps - dark earth fire
+
+fairie fire - earth earth fire
+
+fan of knives - earth earth storm
+
+feedback - dark fire light
+
+feral spirit - earth fire storm
+
+flamestrike - fire fire fire
+
+force of nature - earth earth water
+
+forked lightning- storm storm water
+
+frost armor - dark light water
+
+frost nova - dark water water
+
+heal - light light water
+
+healing wave - fire light water
+
+hex - dark earth storm
+
+holy light - light light light
+
+immolation - dark fire fire
+
+inner fire - fire light light
+
+lightning shield- earth storm storm
+
+mana burn - dark fire water
+
+mana shield - earth storm water
+
+purge - earth light storm
+
+rain of fire - fire fire water
+
+raise dead - dark dark earth
+
+ray of disrupt - light storm water
+
+rejuvination - earth light light
+
+roar - dark earth light
+
+serpent ward - dark storm storm
+
+shadow strike - dark earth earth
+
+shockwave - fire fire storm
+
+silence - dark light storm
+
+life drain - dark earth water
+
+sleep - dark dark water
+
+slow - fire storm water
+
+stormbolt - light storm storm
+
+thunder clap - fire storm storm
+
+trueshot aura - earth fire light
+
+unholy aura - dark dark fire
+
+unholy frenzy - dark dark storm
+
+water elemental - fire water water
+
+
+
+---Energy Spells--- (28)
+
+Polymorph - Energy Energy Energy
+
+Evasion - Energy Energy Light
+
+Shackles - Energy Energy Fire
+
+Curse - Energy Energy Dark
+
+Slow Poison - Energy Energy Earth
+
+Summon Bear - Energy Energy Storm
+
+Frost Arrow - Energy Energy Water
+
+Searing Arrow - Energy Light Fire
+
+Essence of Blight - Energy Light Dark
+
+Blink - Energy Light Earth
+
+Wind Walk - Energy Light Storm
+
+Bash - Energy Light Water
+
+Parasite - Energy Fire Dark
+
+Critical Strike - Energy Fire Earth
+
+Control Magic - Energy Fire Storm
+
+Spell Steal - Energy Fire Water
+
+Carrion Beatles - Energy Dark Earth
+
+Orb of Annihilation - Energy Dark Storm
+
+Devour Magic - Energy Dark Water
+
+War Stomp - Energy Earth Storm
+
+Mirror Image - Energy Earth Water
+
+Drunken Haze - Energy Storm Water
+
+Frost Bolt - Energy Water Water
+
+Healing Wards - Energy Light Light
+
+Anti Magic Shell - Energy Earth Earth
+
+Stasis Trap - Energy Storm Storm
+
+Impale - Energy Dark Dark
+
+Fire Bolt - Energy Fire Fire
+
+
+Changes for Survivor Mode
+
+Banish = Black Arrow
+
+Force of Nature = Attribute Bonus
+
+Ultimates:
+
+Glyph - Light - Light: Resurrection
+
+Glyph - Dark - Dark: Infernal
+
+Glyph - Earth - Earth: Stampede
+
+Glyph - Fire - Fire: Avatar
+
+Glyph - Water - Water: Tranquility
+
+Glyph - Storm - Storm: Starfall
+
+Glyph - Energy - Energy: Reincarnation

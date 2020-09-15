@@ -1,0 +1,113 @@
+Sourced by Adam Lincoln on 15/09/2020 from: https://www.hiveworkshop.com/threads/combos-for-spellcraft.22069/
+
+Fire Fire Fire | Flame Strike
+Fire Fire Water | Rain Of Fire
+Fire Fire Earth | Endurance Aura
+Fire Fire Storm | Shockwave
+Fire Fire Energy | FireBlot
+Fire Fire Light | Fire Breath
+Fire Fire Dark | Immolation
+
+Fire Water Water | Water Elemental
+Fire Water Earth | Cyclone
+Fire Water Storm | Slow
+Fire Water Energy | Spell Steal
+Fire Water Light | Healing Wave
+Fire Water Dark | Mana Burn
+
+Fire Earth Earth | Faeire Fire
+Fire Earth Storm | Feral Spirit
+Fire Earth Energy | Critical Strike
+Fire Earth Light | Tureshot Aura
+Fire Earth Dark | Envemoned Shot
+
+Fire Storm Storm | Thunder Clap
+Fire Storm Energy | Control Magic
+Fire Storm Light | Command Aura
+Fire Storm Dark | Bloodlust
+
+Fire Energy Energy | Shackles
+Fire Energy Light | Searing Arrow
+Fire Energy Dark | Parasite
+
+Fire Light Light | Inner Fire
+Fire Light Dark | Feedback
+
+Fire Dark Dark | Unholy Aura
+
+Water Water Water | Crushing Wave
+Water Water Earth | Brilliant Aura
+Water Water Storm | Blizzard
+Water Water Energy | Frost Bolt
+Water Water Light | Devotion Aura
+Water Water Dark | Frost Nova
+
+Water Earth Earth | Force Of Nature
+Water Earth Storm | Mana Shield
+Water Earth Energy | Howl Of Terror
+Water Earth Light | Dispel Magic
+Water Earth Dark | Life Drain
+
+Water Storm Storm | Forked Lightning
+Water Storm Energy | Drunken Haze
+Water Storm Light | Ray Of Disruption
+Water Storm Dark | Breath Of Frost
+
+Water Energy Energy | Frost Arrow
+Water Energy Light | Bash
+Water Energy Dark | Devouer Magic
+
+Water Light Light | Heal
+Water Light Dark | Frost Armor
+
+Water Dark Dark | Sleep
+
+Earth Earth Earth | Entangling Roots
+Earth Earth Storm | Fan Of Knifes
+Earth Earth Energy | Anti Magic Shell
+Earth Earth Light | Abolish Magic
+Earth Earth Dark | Shadow Strike
+
+Earth Storm Storm | Lightning Shield
+Earth Storm Energy | War Stomp
+Earth Storm Light | Purge
+Earth Storm Dark | Hex
+
+Earth Energy Energy | Slow Poison
+Earth Energy Light | Attribute Bonus
+Earth Energy Dark | Carrion Bettles
+
+Earth Light Light | Rejuvenation
+Earth Light Dark | Roar
+
+Earth Dark Dark | Rasie Dead
+
+Storm Storm Storm | Chain Lightning
+Storm Storm Energy | Storm Bolt
+Storm Storm Light | Statis Trap
+Storm Storm Dark | Serpent Ward
+
+Storm Energy Energy | Summon Bear
+Storm Energy Light | Cannibalize
+Storm Energy Dark | Orb Of Annihilation
+
+Storm Light Light | Hardened Skin
+Storm Light Dark | Silence
+
+Storm Dark Dark | Unholy Frenzy
+
+Energy Energy Energy | Polymorph
+Energy Energy Light | Evasion
+Energy Energy Dark | Curse
+
+Energy Light Light | Healing Ward
+Energy Light Dark | Essence Of Blight
+
+Energy Dark Dark | Impale
+
+Light Light Light | Holy Light
+Light Light Dark | Black Arrow
+
+Light Dark Dark | Cripple
+
+Dark Dark Dark | Death Coil
