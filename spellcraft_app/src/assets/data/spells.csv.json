@@ -1,0 +1,518 @@
+[
+  {
+    "code": "breath_of_fire",
+    "name": "Breath of Fire",
+    "category": "direct_attacks",
+    "cost": "ffl"
+  },
+  {
+    "code": "breath_of_frost",
+    "name": "Breath of Frost",
+    "category": "direct_attacks",
+    "cost": "dsw"
+  },
+  {
+    "code": "chain_lightning",
+    "name": "Chain Lightning",
+    "category": "direct_attacks",
+    "cost": "sss"
+  },
+  {
+    "code": "cold_arrows",
+    "name": "Cold Arrows",
+    "category": "direct_attacks",
+    "cost": "sww"
+  },
+  {
+    "code": "crushing_wave",
+    "name": "Crushing Wave",
+    "category": "direct_attacks",
+    "cost": "www"
+  },
+  {
+    "code": "death_coil",
+    "name": "Death Coil",
+    "category": "direct_attacks",
+    "cost": "ddd"
+  },
+  {
+    "code": "entangle",
+    "name": "Entangle",
+    "category": "direct_attacks",
+    "cost": "eee"
+  },
+  {
+    "code": "fan_of_knives",
+    "name": "Fan of Knives",
+    "category": "direct_attacks",
+    "cost": "ees"
+  },
+  {
+    "code": "fire_bolt",
+    "name": "Fire Bolt",
+    "category": "direct_attacks",
+    "cost": "ffy"
+  },
+  {
+    "code": "flame_strike",
+    "name": "Flame Strike",
+    "category": "direct_attacks",
+    "cost": "fff"
+  },
+  {
+    "code": "forked_lightning",
+    "name": "Forked Lightning",
+    "category": "direct_attacks",
+    "cost": "ssw"
+  },
+  {
+    "code": "frost_arrow",
+    "name": "Frost Arrow",
+    "category": "direct_attacks",
+    "cost": "wyy"
+  },
+  {
+    "code": "frost_bolt",
+    "name": "Frost Bolt",
+    "category": "direct_attacks",
+    "cost": "wwy"
+  },
+  {
+    "code": "frost_nova",
+    "name": "Frost Nova",
+    "category": "direct_attacks",
+    "cost": "dww"
+  },
+  {
+    "code": "impale",
+    "name": "Impale",
+    "category": "direct_attacks",
+    "cost": "ddy"
+  },
+  {
+    "code": "mana_burn",
+    "name": "Mana Burn",
+    "category": "direct_attacks",
+    "cost": "dfw"
+  },
+  {
+    "code": "orb_of_annihilation",
+    "name": "Orb of Annihilation",
+    "category": "direct_attacks",
+    "cost": "dsy"
+  },
+  {
+    "code": "rain_of_fire",
+    "name": "Rain of Fire",
+    "category": "direct_attacks",
+    "cost": "ffw"
+  },
+  {
+    "code": "searing_arrow",
+    "name": "Searing Arrow",
+    "category": "direct_attacks",
+    "cost": "lfy"
+  },
+  {
+    "code": "shadow_strike",
+    "name": "Shadow Strike",
+    "category": "direct_attacks",
+    "cost": "dee"
+  },
+  {
+    "code": "shockwave",
+    "name": "Shockwave",
+    "category": "direct_attacks",
+    "cost": "ffs"
+  },
+  {
+    "code": "storm_bolt",
+    "name": "Storm Bolt",
+    "category": "direct_attacks",
+    "cost": "lss"
+  },
+  {
+    "code": "thunderclap",
+    "name": "Thunderclap",
+    "category": "direct_attacks",
+    "cost": "fss"
+  },
+  {
+    "code": "war_stomp",
+    "name": "War Stomp",
+    "category": "direct_attacks",
+    "cost": "esy"
+  },
+  {
+    "code": "bear",
+    "name": "Bear",
+    "category": "summons",
+    "cost": "syy"
+  },
+  {
+    "code": "carrion_bettles",
+    "name": "Carrion Bettles",
+    "category": "summons",
+    "cost": "dey"
+  },
+  {
+    "code": "control_magic",
+    "name": "Control Magic",
+    "category": "summons",
+    "cost": "fsy"
+  },
+  {
+    "code": "feral_spirit",
+    "name": "Feral Spirit",
+    "category": "summons",
+    "cost": "sef"
+  },
+  {
+    "code": "parasite",
+    "name": "Parasite",
+    "category": "summons",
+    "cost": "fdy"
+  },
+  {
+    "code": "raise_dead",
+    "name": "Raise Dead",
+    "category": "summons",
+    "cost": "dde"
+  },
+  {
+    "code": "serpent_ward",
+    "name": "Serpent Ward",
+    "category": "summons",
+    "cost": "dss"
+  },
+  {
+    "code": "treant_or_treant_or_attribute_bonus",
+    "name": "Treant or Treant or Attribute Bonus",
+    "category": "summons",
+    "cost": "eew"
+  },
+  {
+    "code": "water_elemental",
+    "name": "Water Elemental",
+    "category": "summons",
+    "cost": "fww"
+  },
+  {
+    "code": "essence_of_blight",
+    "name": "Essence of Blight",
+    "category": "healing",
+    "cost": "ldy"
+  },
+  {
+    "code": "drain_life",
+    "name": "Drain Life",
+    "category": "healing",
+    "cost": "dew"
+  },
+  {
+    "code": "heal",
+    "name": "Heal",
+    "category": "healing",
+    "cost": "llw"
+  },
+  {
+    "code": "healing_wards",
+    "name": "Healing Wards",
+    "category": "healing",
+    "cost": "lly"
+  },
+  {
+    "code": "healing_wave",
+    "name": "Healing Wave",
+    "category": "healing",
+    "cost": "flw"
+  },
+  {
+    "code": "holy_light",
+    "name": "Holy Light",
+    "category": "healing",
+    "cost": "lll"
+  },
+  {
+    "code": "rejuvenation",
+    "name": "Rejuvenation",
+    "category": "healing",
+    "cost": "ell"
+  },
+  {
+    "code": "brilliance_aura",
+    "name": "Brilliance Aura",
+    "category": "auras",
+    "cost": "eww"
+  },
+  {
+    "code": "command_aura",
+    "name": "Command Aura",
+    "category": "auras",
+    "cost": "fls"
+  },
+  {
+    "code": "devotion_aura",
+    "name": "Devotion Aura",
+    "category": "auras",
+    "cost": "lww"
+  },
+  {
+    "code": "endurance_aura",
+    "name": "Endurance Aura",
+    "category": "auras",
+    "cost": "eff"
+  },
+  {
+    "code": "trueshot_aura",
+    "name": "Trueshot Aura",
+    "category": "auras",
+    "cost": "efl"
+  },
+  {
+    "code": "unholy_aura",
+    "name": "Unholy Aura",
+    "category": "auras",
+    "cost": "ddf"
+  },
+  {
+    "code": "bloodlust",
+    "name": "Bloodlust",
+    "category": "positive_buffs",
+    "cost": "dfs"
+  },
+  {
+    "code": "frost_armor",
+    "name": "Frost Armor",
+    "category": "positive_buffs",
+    "cost": "dlw"
+  },
+  {
+    "code": "inner_fire",
+    "name": "Inner Fire",
+    "category": "positive_buffs",
+    "cost": "fll"
+  },
+  {
+    "code": "lightning_shield",
+    "name": "Lightning Shield",
+    "category": "positive_buffs",
+    "cost": "ess"
+  },
+  {
+    "code": "roar",
+    "name": "Roar",
+    "category": "positive_buffs",
+    "cost": "del"
+  },
+  {
+    "code": "spell_steal",
+    "name": "Spell Steal",
+    "category": "positive_buffs",
+    "cost": "fwy"
+  },
+  {
+    "code": "unholy_frenzy",
+    "name": "Unholy Frenzy",
+    "category": "positive_buffs",
+    "cost": "dds"
+  },
+  {
+    "code": "cripple",
+    "name": "Cripple",
+    "category": "negative_buffs",
+    "cost": "ddl"
+  },
+  {
+    "code": "curse",
+    "name": "Curse",
+    "category": "negative_buffs",
+    "cost": "dyy"
+  },
+  {
+    "code": "druken_haze",
+    "name": "Druken Haze",
+    "category": "negative_buffs",
+    "cost": "swy"
+  },
+  {
+    "code": "fairie_fire",
+    "name": "Fairie Fire",
+    "category": "negative_buffs",
+    "cost": "eef"
+  },
+  {
+    "code": "slow",
+    "name": "Slow",
+    "category": "negative_buffs",
+    "cost": "fsw"
+  },
+  {
+    "code": "shackles",
+    "name": "Shackles",
+    "category": "negative_buffs",
+    "cost": "fyy"
+  },
+  {
+    "code": "anti_magic_shell",
+    "name": "Anti Magic Shell",
+    "category": "defense_and_avoidance",
+    "cost": "eey"
+  },
+  {
+    "code": "blink_or_attribute_bonus",
+    "name": "Blink or Attribute Bonus",
+    "category": "defense_and_avoidance",
+    "cost": "ley"
+  },
+  {
+    "code": "divine_shield_or_hardened_skin",
+    "name": "Divine Shield or Hardened Skin",
+    "category": "defense_and_avoidance",
+    "cost": "lls"
+  },
+  {
+    "code": "evasion",
+    "name": "Evasion",
+    "category": "defense_and_avoidance",
+    "cost": "lyy"
+  },
+  {
+    "code": "mana_shield",
+    "name": "Mana Shield",
+    "category": "defense_and_avoidance",
+    "cost": "esw"
+  },
+  {
+    "code": "mirror_image_or_howl_of_terror",
+    "name": "Mirror Image or Howl of Terror",
+    "category": "defense_and_avoidance",
+    "cost": "ewy"
+  },
+  {
+    "code": "wind_walk_or_cannibalize",
+    "name": "Wind Walk or Cannibalize",
+    "category": "defense_and_avoidance",
+    "cost": "lsy"
+  },
+  {
+    "code": "banish_or_black_arrow",
+    "name": "Banish or Black Arrow",
+    "category": "interruptions",
+    "cost": "dll"
+  },
+  {
+    "code": "cyclone",
+    "name": "Cyclone",
+    "category": "interruptions",
+    "cost": "efw"
+  },
+  {
+    "code": "hex",
+    "name": "Hex",
+    "category": "interruptions",
+    "cost": "des"
+  },
+  {
+    "code": "polymorph",
+    "name": "Polymorph",
+    "category": "interruptions",
+    "cost": "yyy"
+  },
+  {
+    "code": "silence",
+    "name": "Silence",
+    "category": "interruptions",
+    "cost": "dls"
+  },
+  {
+    "code": "sleep",
+    "name": "Sleep",
+    "category": "interruptions",
+    "cost": "ddw"
+  },
+  {
+    "code": "stasis_trap",
+    "name": "Stasis Trap",
+    "category": "interruptions",
+    "cost": "ssy"
+  },
+  {
+    "code": "immolation",
+    "name": "Immolation",
+    "category": "melee_spells",
+    "cost": "dff"
+  },
+  {
+    "code": "abolish_magic",
+    "name": "Abolish Magic",
+    "category": "passive_abilities",
+    "cost": "eel"
+  },
+  {
+    "code": "devour_magic",
+    "name": "Devour Magic",
+    "category": "passive_abilities",
+    "cost": "dwy"
+  },
+  {
+    "code": "dispel_magic",
+    "name": "Dispel Magic",
+    "category": "passive_abilities",
+    "cost": "elw"
+  },
+  {
+    "code": "purge",
+    "name": "Purge",
+    "category": "passive_abilities",
+    "cost": "els"
+  },
+  {
+    "code": "ray_of_disruption",
+    "name": "Ray of Disruption",
+    "category": "passive_abilities",
+    "cost": "lsw"
+  },
+  {
+    "code": "avatar",
+    "name": "Avatar",
+    "category": "ultimates",
+    "cost": "cff"
+  },
+  {
+    "code": "inferno",
+    "name": "Inferno",
+    "category": "ultimates",
+    "cost": "cdd"
+  },
+  {
+    "code": "reincarnation",
+    "name": "Reincarnation",
+    "category": "ultimates",
+    "cost": "cyy"
+  },
+  {
+    "code": "resurrection",
+    "name": "Resurrection",
+    "category": "ultimates",
+    "cost": "cll"
+  },
+  {
+    "code": "stampede",
+    "name": "Stampede",
+    "category": "ultimates",
+    "cost": "cee"
+  },
+  {
+    "code": "starfall",
+    "name": "Starfall",
+    "category": "ultimates",
+    "cost": "css"
+  },
+  {
+    "code": "tranquility",
+    "name": "Tranquility",
+    "category": "ultimates",
+    "cost": "cww"
+  }
+]

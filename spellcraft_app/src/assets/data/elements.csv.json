@@ -1,0 +1,42 @@
+[
+  {
+    "code": "storm",
+    "name": "Storm",
+    "alias": "s"
+  },
+  {
+    "code": "earth",
+    "name": "Earth",
+    "alias": "e"
+  },
+  {
+    "code": "fire",
+    "name": "Fire",
+    "alias": "f"
+  },
+  {
+    "code": "water",
+    "name": "Water",
+    "alias": "w"
+  },
+  {
+    "code": "light",
+    "name": "Light",
+    "alias": "l"
+  },
+  {
+    "code": "dark",
+    "name": "Dark",
+    "alias": "d"
+  },
+  {
+    "code": "energy",
+    "name": "Energy",
+    "alias": "y"
+  },
+  {
+    "code": "chaos",
+    "name": "Chaos",
+    "alias": "c"
+  }
+]

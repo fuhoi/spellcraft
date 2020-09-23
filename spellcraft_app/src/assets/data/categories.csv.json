@@ -1,0 +1,50 @@
+[
+  {
+    "code": "direct_attacks",
+    "name": "Direct attacks"
+  },
+  {
+    "code": "summons",
+    "name": "Summons"
+  },
+  {
+    "code": "healing",
+    "name": "Healing"
+  },
+  {
+    "code": "auras",
+    "name": "Auras"
+  },
+  {
+    "code": "positive_buffs",
+    "name": "Positive Buffs"
+  },
+  {
+    "code": "negative_buffs",
+    "name": "Negative Buffs"
+  },
+  {
+    "code": "defense_and_avoidance",
+    "name": "Defense and Avoidance"
+  },
+  {
+    "code": "interruptions",
+    "name": "Interruptions"
+  },
+  {
+    "code": "melee_spells",
+    "name": "Melee Spells"
+  },
+  {
+    "code": "passive_abilities",
+    "name": "Passive Abilities"
+  },
+  {
+    "code": "debuffs_and_unsummons",
+    "name": "Debuffs and Unsummons"
+  },
+  {
+    "code": "ultimates",
+    "name": "Ultimates"
+  }
+]

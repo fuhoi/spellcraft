@@ -1,0 +1,175 @@
+https://www.jamiebalfour.scot/about/interests/gaming/warcraft3/spellcraft/
+
+
+http://dinges.50webs.com/Sub/Spellcraft.html
+http://dinges.50webs.com/Sub/Tactic.html#H
+
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=467578742
+Game modes:
+FFA Modes:
+Battle - Skirmish in a small arena, the first one to score a set amount of kills wins
+Survivor - Send waves of monsters to enemy players while defending yourself from theirs
+Hunter - Gather orbs in the forest and hunt your enemies
+Conquest - Capture control points which spawn orbs and conquer the labirynth
+Team vs Team Modes:
+Line Wars - Send waves of monsters to enemy team while defending yourselves from theirs
+Co-op Modes:
+Gladiator - Team up and fight against waves of monsters with limited pool of orbs
+
+
+
+https://www.thehelper.net/threads/spell-craft-the-list.47734/
+
+* = spells which are not present in Survivor mode
+
+Ingredient Symbols
+
+S- Storm
+E- Earth
+F- Fire
+W- Water
+L- Light
+D- Dark
+Y- Energy
+C- Chaos
+
+Direct attack Spells
+
+Breath of Fire- FFL
+Breath of Frost- DSW
+Chain Lightning- SSS
+Cold Arrows- SWW
+Crushing Wave- WWW
+Death Coil- DDD
+Entangle- EEE
+Fan of Knives- EES
+Fire Bolt- FFY
+Flamestrike- FFF
+Forked Lightning- SSW
+Frost Arrow- WYY
+Frost Bolt- WWY
+Frost Nova- DWW
+Impale- DDY
+Mana Burn- DFW
+Orb of Annihilation- DSY
+Rain of Fire- FFW
+Searing Arrow- LFY
+Shadow Strike- DEE
+Shockwave- FFS
+Stormbolt- LSS
+Thunder Clap- FSS
+War Stomp- ESY
+
+Summons
+
+Bear- SYY
+Carrion Beetles- DEY
+Control Magic- FSY
+Feral Spirit- EFS
+Parasite- FDY
+Raise Dead- DDE
+Serpent Ward- DSS
+Treants*- EEW
+Water Elemental- FWW
+
+Healing
+
+Essence of Blight- LDY
+Drain Life- DEW
+Heal- LLW
+Healing Wards- LLY
+Healing Wave- FLW
+Holy Light- LLL
+Rejuvination- ELL
+
+Auras
+
+Brilliance Aura- EWW
+Command Aura- FLS
+Devotion Aura- LWW
+Endurance Aura- EEF
+Trueshot Aura- EFL
+Unholy Aura- DF
+
+Positive Buffs
+
+Bloodlust- DFS
+Frost Armor- DLW
+Inner Fire- FLL
+Lightning Shield- ESS
+Roar- DEL
+Spell Steal- FWY
+Unholy Frenzy- DDS
+
+Negative Buffs
+
+Cripple- DDL
+Curse- DYY
+Drunken Haze- SWY
+Fairie Fire- EEF
+Slow- FSW
+Shackles- FYY
+
+Defense and Avoidance
+
+Anti Magic Shell- EEY
+Blink*- LEY
+Divine Shield*- LLS
+Evasion- LYY
+Mana Shield- ESW
+Mirror Image*- EWY
+Wind Walk*- LSY
+
+Interruptions
+
+Banish*- DLL
+Cyclone- EFW
+Hex- DES
+Polymorph- YYY
+Silence- DLS
+Sleep- DW
+Stasis Trap- SSY
+
+Melee Ranged Spells
+
+Immolation- DFF
+Fan of Knives- EES
+Thunder Clap- FSS
+War Stomp- ESY
+
+Passive Abilities
+
+Bash- LWY
+Critical Strike- FEY
+Envenomed Weapons- DEF
+Evasion- LYY
+Feedback- DFL
+Slow Poison- EY
+
+Debuffs and Unsummons
+
+Abolish Magic- EEL
+Anti Magic Shell- EEY
+Devour Magic- DWY
+Dispel Magic- ELW
+Purge- ELS
+Ray of Disruption- LSW
+
+Ultimates
+
+Avatar- CFF
+Inferno- CDD
+Reincarnation- CYY
+Resurrection- CLL
+Stampede- CEE
+Starfall- CSS
+Tranquility- CWW
+
+Survivor Changes.
+
+Atribute Bonus- LEY
+Black Arrow- DLL
+Hardened Skin- LLS
+Howl of Terror- EWY
+Cannibalize- LSY
